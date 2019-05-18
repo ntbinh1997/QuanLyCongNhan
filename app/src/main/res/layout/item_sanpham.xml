@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    android:background="@color/lightGray">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="sản phẩm 1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:id="@+id/textTenSP"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đơn vị tính"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:id="@+id/textDonViTinhSP"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đơn giá"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:id="@+id/textDonGiaSP"/>
+    </LinearLayout>
+
+
+</LinearLayout>
